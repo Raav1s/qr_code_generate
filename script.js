@@ -21,10 +21,10 @@ document
       qrCodeImage.src = imageUrl;
       qrCodeImage.style.display = "block";
 
-      const downloadBtn = document.getElementById("downloadBtn");
-      downloadBtn.href = imageUrl;
-      downloadBtn.style.display = "inline-block";
+      const downloadLink = document.getElementById("downloadLink");
+      downloadLink.href = imageUrl;
+      downloadLink.style.display = "inline-block";
     } else {
-      alert("Ошибка генерации QR-кода");
+      alert("QR code generation error");
     }
   });

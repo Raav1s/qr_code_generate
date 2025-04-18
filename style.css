@@ -45,15 +45,16 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-button {
+.btn {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
 }
-button:hover {
+.btn:hover {
   background-color: #45a049;
 }
 img {
@@ -86,7 +87,7 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-button {
+.btn {
   background: #007bff;
   color: #fff;
   border: none;
@@ -95,10 +96,10 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
-button:hover {
+.btn:hover {
   background: #0056b3;
 }
-#downloadBtn {
+#downloadLink {
   margin-top: 20px;
   display: none;
 }

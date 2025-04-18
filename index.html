@@ -20,13 +20,13 @@
             placeholder="Enter your url"
             required
           />
-          <button type="submit">Generate QR Code</button>
+          <button class= "btn" type="submit">Generate QR Code</button>
         </form>
       </div>
 
       <div class="qr-container">
         <img id="qrCodeImage" src="" alt="QR Code" style="display: none" />
-        <button id="downloadBtn"><a download="qr-code.png">Скачать QR-код</a></button>
+        <a id="downloadLink" class= "btn" download="qr-code.png">Download QR Code</a>     
       </div>
     </main>
     <script src="script.js"></script>
