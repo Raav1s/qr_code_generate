@@ -43,4 +43,4 @@ A simple web application for generating QR codes from a given URL. Built with No
 📦 Dependencies
 - [express](https://www.npmjs.com/package/express)
 - [qr-image](https://www.npmjs.com/package/qr-image)
-- Node.js
+- [Node.js](https://nodejs.org)
